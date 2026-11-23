@@ -1,4 +1,3 @@
-
 name: Security Scan
 
 on:
@@ -11,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
- gitleaks:
+  gitleaks:
     name: Gitleaks Secret Scan
     runs-on: ubuntu-latest
 
